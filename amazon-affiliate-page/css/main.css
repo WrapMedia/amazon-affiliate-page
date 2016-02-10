@@ -541,11 +541,11 @@ body > section {
   transition-duration: 0.8s;
 }
 .isotope {
-  -/*webkit-transition-property: height, width ;
+  -webkit-transition-property: height, width ;
   -moz-transition-property: height, width;
   -ms-transition-property: height, width;
   -o-transition-property: height, width;
-  transition-property: height, width;*/
+  transition-property: height, width;
 }
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
@@ -1116,4 +1116,9 @@ ul.faq li > div h3 {
   border:none;
   border-radius: 0;
   text-transform: uppercase;
+}
+@media(max-width: 600px) {
+  #header {
+    content:url("../images/portfolio/header_mobile.png");
+  }
 }
