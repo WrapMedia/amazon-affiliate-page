@@ -1119,6 +1119,6 @@ ul.faq li > div h3 {
 }
 @media(max-width: 600px) {
   #header {
-    content:url("../images/portfolio/header_2.png");
+    content:url("../images/portfolio/Header_2.png");
   }
 }
