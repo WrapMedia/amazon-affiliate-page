@@ -1119,6 +1119,6 @@ ul.faq li > div h3 {
 }
 @media(max-width: 600px) {
   #header {
-    content:url("../images/portfolio/header_mobile.png");
+    content:url("../images/portfolio/Mobile.jpg");
   }
 }
