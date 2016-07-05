@@ -1,8 +1,8 @@
 
 body{
 	margin:0;
-	padding:50px;
 	font:300 18px/18px Roboto, sans-serif;
+	padding-top:105px;
 }
 *,:after,:before{box-sizing:border-box}
 .pull-left{float:left}
