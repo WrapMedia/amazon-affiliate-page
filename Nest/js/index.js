@@ -15,7 +15,7 @@ $(function(){
 			console.log('onSlideEnd');
 			console.log('position: ' + position, 'value: ' + value);
 			 $.ajax({
-      url: 'http://whatsthetemp/'+ value,
+      url: 'https://10.0.1.235:8081/nest/temp/'+ value,
       data: {
          format: 'json'
       },
