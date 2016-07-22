@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>Creative Gooey Effects: Menu</title>
+		<meta name="description" content="Practical examples of how to apply the Gooey effect by Lucas Bebber" />
+		<meta name="keywords" content="gooey, effect, inspiration, web design, example, css, svg, filter" />
+		<meta name="author" content="Lucas Bebber for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/vicons/vicons-font.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		
+			<div style="padding-top:310px; padding-left:68px;">
+			<div class="content">
+				<div class="menu">
+					<div class="menu-wrapper">
+						<ul class="menu-items">
+							<li class="menu-item">
+								<button class="menu-item-button" style="background-color:#24A9E6;">
+									<i class="menu-item-icon fa fa-twitter"></i>
+								</button>
+								<div class="menu-item-bounce"></div>
+							</li>
+							<li class="menu-item">
+								<button class="menu-item-button" style="background-color: #43619C;">
+									<i class="menu-item-icon fa fa-facebook-f"></i>
+								</button>
+								<div class="menu-item-bounce"></div>
+							</li>
+							<li class="menu-item"> 
+								<button class="menu-item-button" style="background-color:#187FB8;">
+									<i class="menu-item-icon fa fa-linkedin"></i>
+								</button>
+								<div class="menu-item-bounce"></div>
+							</li>
+						</ul>
+						s
+						<button class="menu-toggle-button">
+							<i class="fa fa-dot-circle-o menu-toggle-icon"></i>
+						</button>
+					</div>
+				</div>
+				</div>
+			
+			
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+			  <defs>
+			    <filter id="goo">
+			      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+			      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+			      <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+			    </filter>
+			  </defs>
+			</svg>
+			
+		</div><!-- /container -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/menu.js"></script>
+	</body>
+</html>
