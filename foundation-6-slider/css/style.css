@@ -1,0 +1,46 @@
+.off-canvas {
+  padding-right: .5rem;
+}
+
+.off-canvas-wrapper {
+  position: relative;
+}
+
+.off-canvas-wrapper-inner {
+  position: relative;
+}
+
+.off-canvas-content {
+  position: relative;
+  min-height: 50%;
+  padding: 0 !important;
+}
+
+#slider {
+  background-color: #aaa;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.title-bar-title.small {}
+
+.title-bar button {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 40em) {
+  .reveal-for-medium {
+    position: relative;
+  }
+}

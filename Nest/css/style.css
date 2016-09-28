@@ -1,0 +1,190 @@
+
+body{
+	margin:0;
+	font:300 18px/18px Roboto, sans-serif;
+	padding-top:105px;
+}
+*,:after,:before{box-sizing:border-box}
+.pull-left{float:left}
+
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+
+.rangeslider,
+.rangeslider__fill {
+	display:block;
+	border-radius:10px;
+}
+
+.rangeslider {
+	position:relative;
+}
+.rangeslider:after{
+	top:50%;
+	left:0;
+	right:0;
+	content:'';
+	width:100%;
+	height:5px;
+	margin-top:-2.5px;
+	border-radius:5px;
+	position:absolute;
+	background:#d4d4d4;
+}
+
+.rangeslider--horizontal{
+	width:100%;
+	height:28px;
+}
+
+.rangeslider--vertical{
+	width:5px;
+	min-height:150px;
+	max-height:100%;
+}
+.rangeslider--disabled{
+	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+	opacity:0.4;
+}
+
+.rangeslider__fill{
+	position:absolute;
+	background:#54C7F4;
+}
+.rangeslider--horizontal .rangeslider__fill{
+	top:0;
+	height:100%;
+}
+.rangeslider--vertical .rangeslider__fill{
+	bottom:0;
+	width:100%;
+}
+
+.rangeslider__handle{
+	top:50%;
+	width:28px;
+	height:28px;
+	cursor:pointer;
+	margin-top:-14px;
+	background:white;
+	position:absolute;
+	background:#3DB3FB;
+	border-radius:50%;
+	display:inline-block;
+}
+.rangeslider__handle:active{
+	background:#76C7F9;
+}
+
+.rangeslider__fill,
+.rangeslider__handle{
+	z-index:1;
+}
+.rangeslider--horizontal .rangeslider__fill{
+	top:50%;
+	height:5px;
+	margin-top:-2.5px;
+}
+
+/* Budget 
+.budget-wrap{
+	padding:40px;
+	
+	box-shadow:0 25px 55px 0 rgba(0,0,0,.21),0 16px 28px 0 rgba(0,0,0,.22);
+}
+*/
+.budget-wrap .header .title{
+	color:#fff;
+	font-size:18px;
+	margin-bottom:30px;
+}
+.budget-wrap .header .title .pull-right{
+	color:#9F9F9F;
+	font-size:24px;
+	font-weight:400;
+}
+.budget-wrap .footer{
+	margin-top:30px;
+}
+.budget-wrap .footer .btn{
+	color:inherit;
+	padding:12px 24px;
+	border-radius:50px;
+	display:inline-block;
+	text-decoration:none;
+}
+.budget-wrap .footer .btn.btn-def{
+	color:#525263;
+}
+.budget-wrap .footer .btn.btn-pri{
+	color:#eee;
+	background:#ff5a84;
+}
+
+.para { 
+	color:#DADADA;
+	font-size: 22px;
+	letter-spacing: 3px;
+	
+}
+
+.btn1 {
+    width: 640px;
+    height: 95px;
+    white-space: nowrap;
+    color: transparent;
+    background-image: url(https://dl.dropbox.com/s/mr7sgd0qy1iq5h7/btn3.png);
+	border:none;
+	outline: none;
+   background-color: transparent;
+    
+   
+}
+
+
+/*              BTN 2               */
+.btn2 {
+    width: 640px;
+    height: 95px;
+    white-space: nowrap;
+    margin: 0;
+	 text-decoration: none;
+    color: transparent;
+    background-image: url(https://dl.dropbox.com/s/f4j634cjpkzvlng/btn1.png?dl=0);
+	border:none;
+	outline: none;
+	background-color: transparent;
+   
+}
+
+
+
+/*              BTN 2               */
+.btn3 {
+    width: 640px;
+    height: 95px;
+    white-space: nowrap;
+    color: transparent;
+    background-image: url(https://dl.dropbox.com/s/2n9gon9hck1fm77/btn2.png);
+	background-color: transparent;
+	border:none;
+	outline: none;
+   
+   
+}
+.btn4 {
+    width: 640px;
+    height: 95px;
+    white-space: nowrap;
+    color: transparent;
+    background-image: url(https://dl.dropbox.com/s/aizuj1tnir96m0q/btn4.png?dl=0);
+	background-color: transparent;
+	border:none;
+	outline: none;
+   
+   
+}
+
+
+
+
